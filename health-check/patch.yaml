@@ -1,0 +1,9 @@
+data:
+    resource.customizations.health.ConfigMap: |
+      hs = {}
+      hs.status = "Healthy"
+       if obj.data.TRIANGLE_COLOR == "white" then
+          hs.status = "Degraded"
+          hs.message = "Use any color other than White "
+       end
+      return hs
