@@ -7,4 +7,4 @@ data:
   OVAL_COLOR: "lightgreen"
   SQUARE_COLOR: "orange"
   TRIANGLE_COLOR: "white"   # use white to get a Degraded message in ArgoCD
-  RECTANGLE_COLOR: "blue" 
+  RECTANGLE_COLOR: "blue" # use white to get a Degraded message in ArgoCD
